@@ -1,7 +1,7 @@
 MeLiDotNetSample
 ================
 
-This is a project usign MercadoLibre .NET SDK 
+This is a project usign [MercadoLibre .NET SDK](http://http://developers.mercadolibre.com/net-sdk/)
 
 
 Libraries required:
@@ -10,3 +10,7 @@ Libraries required:
 * Newtonsoft.Json.dll
 * RestSharp.dll
 
+Enviroment
+
+* .net framework 3.5
+* [monodevelop](http://http://monodevelop.com/)
