@@ -10,6 +10,8 @@ This is a project usign [MercadoLibre .NET SDK](http://developers.mercadolibre.c
 * Newtonsoft.Json.dll
 * RestSharp.dll
 
+You can find all these libraries and the [lib]() folder
+
 ##Enviroment
 
 * .net framework 3.5
