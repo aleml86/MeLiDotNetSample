@@ -13,4 +13,4 @@ Libraries required:
 Enviroment
 
 * .net framework 3.5
-* [monodevelop](http://http://monodevelop.com/)
+* [monodevelop](http://monodevelop.com/)
