@@ -34,14 +34,14 @@
     <Reference Include="System.Web" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Web.Services" />
+    <Reference Include="net-sdk">
+      <HintPath>lib\net-sdk.dll</HintPath>
+    </Reference>
     <Reference Include="RestSharp">
-      <HintPath>..\..\..\..\Projects\MeliSample\MeliSample\bin\RestSharp.dll</HintPath>
+      <HintPath>lib\RestSharp.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-      <HintPath>..\..\..\..\Projects\MeliSample\MeliSample\bin\Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="net-sdk">
-      <HintPath>..\..\..\..\Projects\MeliSample\MeliSample\bin\net-sdk.dll</HintPath>
+      <HintPath>lib\Newtonsoft.Json.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -74,7 +74,6 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="LayerService\MeliService.cs" />
     <Compile Include="ProductUserControl.ascx.cs">
       <DependentUpon>ProductUserControl.ascx</DependentUpon>
     </Compile>
@@ -87,6 +86,7 @@
     <Compile Include="ProductDetails.aspx.designer.cs">
       <DependentUpon>ProductDetails.aspx</DependentUpon>
     </Compile>
+    <Compile Include="ServiceLayer\MeliService.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
@@ -98,10 +98,10 @@
     </MonoDevelop>
   </ProjectExtensions>
   <ItemGroup>
-    <Folder Include="LayerService\" />
     <Folder Include="assets\" />
     <Folder Include="js\" />
     <Folder Include="css\" />
+    <Folder Include="ServiceLayer\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="assets\icons.eot" />
