@@ -10,7 +10,7 @@ This is a project usign [MercadoLibre .NET SDK](http://developers.mercadolibre.c
 * Newtonsoft.Json.dll
 * RestSharp.dll
 
-You can find all these libraries and the [lib]() folder
+You can find all these libraries and the [lib](/tree/master/MeliSample/lib) folder
 
 ##Enviroment
 
