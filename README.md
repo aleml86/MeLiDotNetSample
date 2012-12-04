@@ -1,7 +1,8 @@
 MeLiDotNetSample
 ================
 
-DotNet Project using Mercado Libre .NET SDK
+This is a project usign MercadoLibre .NET SDK 
+
 
 Libraries required:
 
