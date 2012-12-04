@@ -5,6 +5,7 @@
 <html>
 <head runat="server">
 	<title>Meli Sample .NET</title>
+	
 	<link rel="stylesheet" href="~/css/chico-0.12.2.css" />
 	<link rel="stylesheet" href="~/css/chico-mesh.css" />
 	
@@ -34,7 +35,6 @@
 
 <body>
 	
-	
 	<h1 class="title_h1"></h1>
 	<h2 class="title_h2">Meli Sample</h2>
 	
@@ -46,21 +46,15 @@
 		
 		<div class="ch-box-lite ch-g6-10">
 			<h2>Search</h2>
-			
 			<asp:DropDownList id="DDLsites" runat="server" AutoPostBack="True" onselectedindexchanged="updateCategories" datavaluefield="id" datatextfield="name"/>
 			<asp:DropDownList id="DDLcategories" runat="server" datavaluefield="id" datatextfield="name"/>
 			<asp:TextBox id="textInput" runat="server" />
 	    	<asp:Button id="btnSearch" runat="server" Text="Search" OnClick="btnSearchClicked" CssClass="ch-btn"/>
-    	
     	</div>
     	
-    	<!--<asp:Button id="btnAccess" runat="server" Text="Login" OnClick="btnAccessClicked" CssClass="ch-btn"/>
-    	<asp:Button id="btnLogout" runat="server" Text="Logout" OnClick="btnLogoutClicked" CssClass="ch-btn"/>-->
-		
 		<asp:PlaceHolder runat="server" ID="resultsPlaceHolder" />
 		
 	</form>
-
 	
 </body>
 </html>

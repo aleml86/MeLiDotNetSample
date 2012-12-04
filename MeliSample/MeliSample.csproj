@@ -47,8 +47,6 @@
   <ItemGroup>
     <Content Include="Global.asax" />
     <Content Include="web.config" />
-    <Content Include="Default.aspx" />
-    <Content Include="ProductUserControl.ascx" />
     <Content Include="assets\icons.png" />
     <Content Include="assets\loading-big.gif" />
     <Content Include="assets\loading-small.gif" />
@@ -60,10 +58,11 @@
     <Content Include="css\chico-0.12.2.css" />
     <Content Include="css\chico-mesh.css" />
     <Content Include="css\chico-min-0.12.2.css" />
-    <Content Include="Response.aspx" />
     <Content Include="assets\big_puzzle.png" />
     <Content Include="assets\main.png" />
+    <Content Include="Default.aspx" />
     <Content Include="ProductDetails.aspx" />
+    <Content Include="ProductUserControl.ascx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">
@@ -82,12 +81,6 @@
     <Compile Include="ProductUserControl.ascx.designer.cs">
       <DependentUpon>ProductUserControl.ascx</DependentUpon>
     </Compile>
-    <Compile Include="Response.aspx.cs">
-      <DependentUpon>Response.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Response.aspx.designer.cs">
-      <DependentUpon>Response.aspx</DependentUpon>
-    </Compile>
     <Compile Include="ProductDetails.aspx.cs">
       <DependentUpon>ProductDetails.aspx</DependentUpon>
     </Compile>
@@ -105,7 +98,6 @@
     </MonoDevelop>
   </ProjectExtensions>
   <ItemGroup>
-    <Folder Include="LayerViews\" />
     <Folder Include="LayerService\" />
     <Folder Include="assets\" />
     <Folder Include="js\" />
