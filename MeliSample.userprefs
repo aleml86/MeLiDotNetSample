@@ -1,0 +1,23 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MeliSample/ProductDetails.aspx">
+    <Files>
+      <File FileName="MeliSample/ProductDetails.aspx" Line="34" Column="1" />
+      <File FileName="MeliSample/ProductDetails.aspx.cs" Line="33" Column="46" />
+      <File FileName="MeliSample/LayerService/MeliService.cs" Line="407" Column="2" />
+      <File FileName="MeliSample/Default.aspx" Line="7" Column="1" />
+      <File FileName="MeliSample/Global.asax" Line="2" Column="1" />
+      <File FileName="MeliSample/ProductUserControl.ascx" Line="24" Column="4" />
+      <File FileName="MeliSample/ProductDetails.aspx.designer.cs" Line="1" Column="1" />
+      <File FileName="MeliSample/Default.aspx.designer.cs" Line="1" Column="1" />
+      <File FileName="MeliSample/ProductUserControl.ascx.cs" Line="39" Column="4" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/alejandromagnani/Projects/MeliSample/MeliSample/Response.aspx.cs" line="63" />
+      <Breakpoint file="/Users/alejandromagnani/Projects/MeliSample/MeliSample/Response.aspx.cs" line="61" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

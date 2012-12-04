@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6CB78889-0E63-4468-B0F1-5DC8CA107435}</ProjectGuid>
+    <ProjectTypeGuids>{349C5851-65DF-11DA-9384-00065B846F21};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>MeliSample</RootNamespace>
+    <AssemblyName>MeliSample</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>False</Optimize>
+    <OutputPath>bin</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>False</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>True</Optimize>
+    <OutputPath>bin</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>False</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="RestSharp">
+      <HintPath>..\..\..\..\Projects\MeliSample\MeliSample\bin\RestSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\..\..\Projects\MeliSample\MeliSample\bin\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="net-sdk">
+      <HintPath>..\..\..\..\Projects\MeliSample\MeliSample\bin\net-sdk.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Global.asax" />
+    <Content Include="web.config" />
+    <Content Include="Default.aspx" />
+    <Content Include="ProductUserControl.ascx" />
+    <Content Include="assets\icons.png" />
+    <Content Include="assets\loading-big.gif" />
+    <Content Include="assets\loading-small.gif" />
+    <Content Include="assets\loading.gif" />
+    <Content Include="assets\shapes.png" />
+    <Content Include="js\chico-0.12.2.js" />
+    <Content Include="js\chico-min-0.12.2.js" />
+    <Content Include="js\jquery.js" />
+    <Content Include="css\chico-0.12.2.css" />
+    <Content Include="css\chico-mesh.css" />
+    <Content Include="css\chico-min-0.12.2.css" />
+    <Content Include="Response.aspx" />
+    <Content Include="assets\big_puzzle.png" />
+    <Content Include="assets\main.png" />
+    <Content Include="ProductDetails.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LayerService\MeliService.cs" />
+    <Compile Include="ProductUserControl.ascx.cs">
+      <DependentUpon>ProductUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ProductUserControl.ascx.designer.cs">
+      <DependentUpon>ProductUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Response.aspx.cs">
+      <DependentUpon>Response.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Response.aspx.designer.cs">
+      <DependentUpon>Response.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProductDetails.aspx.cs">
+      <DependentUpon>ProductDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProductDetails.aspx.designer.cs">
+      <DependentUpon>ProductDetails.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <MonoDevelop>
+      <Properties VerifyCodeBehindFields="True" VerifyCodeBehindEvents="True">
+        <XspParameters Port="8080" Address="127.0.0.1" SslMode="None" SslProtocol="Default" KeyType="None" CertFile="" KeyFile="" PasswordOptions="None" Password="" Verbose="True" />
+      </Properties>
+    </MonoDevelop>
+  </ProjectExtensions>
+  <ItemGroup>
+    <Folder Include="LayerViews\" />
+    <Folder Include="LayerService\" />
+    <Folder Include="assets\" />
+    <Folder Include="js\" />
+    <Folder Include="css\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\icons.eot" />
+    <None Include="assets\icons.otf" />
+    <None Include="assets\icons.svg" />
+    <None Include="assets\icons.ttf" />
+    <None Include="assets\icons.woff" />
+  </ItemGroup>
+</Project>
