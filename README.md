@@ -1,12 +1,12 @@
 MeLiDotNetSample
 ================
 
-This is a project usign [MercadoLibre .NET SDK](http://http://developers.mercadolibre.com/net-sdk/)
+This is a project usign [MercadoLibre .NET SDK](http://developers.mercadolibre.com/net-sdk/)
 
 
 ##Libraries required:
 
-* net-sk.dll (MercadoLibre SDK)
+* net-sdk.dll (MercadoLibre SDK)
 * Newtonsoft.Json.dll
 * RestSharp.dll
 
