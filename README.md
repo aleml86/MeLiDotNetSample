@@ -24,3 +24,7 @@ We use chico-ui and chico-mesh for the layout of the sample application.
 You can learn more [here](http://chico-ui.com.ar/) about this user interface.    
 
 ##Configuration
+
+Just clone this repo and then open MeliSample.sln in your IDE.
+
+Run it! 
