@@ -24,7 +24,7 @@ namespace MeliSample
 
 		private MeliService ()
 		{
-			service = new Meli(8174268490131133,"qMgup2gzuem4M20IiUkLoExOc60iokqV");
+			service = new Meli(app_id,"api_key");
 		}
 
 		public List<Sites> GetSites ()
