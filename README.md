@@ -21,7 +21,9 @@ You can find all these libraries int the [lib](/aleml86/MeLiDotNetSample/tree/ma
 
 We use chico-ui and chico-mesh for the layout of the sample application. 
 
-You can learn more [here](http://chico-ui.com.ar/) about this user interface.    
+You can learn more [here](http://chico-ui.com.ar/) about this user interface. 
+
+In addition to this, we use a web tool that converts json in c# clases to generate the code automaticaly: [json2csharp](http://json2csharp.com/).
 
 ##Configuration
 
